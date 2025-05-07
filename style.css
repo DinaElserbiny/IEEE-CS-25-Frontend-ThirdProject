@@ -27,7 +27,6 @@ body{
 
 .left-section img {
     width :450px;
-
 }
 
 
@@ -39,7 +38,7 @@ text-align: center;
 
 }
 .right-section .countiner{
-    width: 60%;
+   /* width: 60%;*/
     border: solid 1px;
     margin: 38px 145px;
     border: 3px solid #77b77f;
@@ -54,20 +53,19 @@ text-align: center;
 {
     margin-bottom: 33px;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
    
 }
+.right-section header img{
+    height: 50px;
+    padding-top: 20px;
 
+}
 .right-section header h2{
-    display: inline-block;
     padding-top: 10px;
 }
 
-.right-section header img {
-    position: absolute;
-    right: 28%;
-    top: 4%;
-
-}
 
 .right-section input::placeholder{
     color: #77b77f;
@@ -140,11 +138,101 @@ input[type="datetime-local"] {
     width: 10px;
 }
 
+.right-section .name-task h6{
+    margin-top: 0;
+    margin-bottom: -15px;
+}
 .right-section .name-task p 
 {
     color: #9508085e;
     font-size: 10px;
     padding: 0;
     margin-top: 0px;
-    margin-left: -20px;
+    margin-top: 0;
 }
+
+
+
+
+
+
+
+
+
+/* ✅ Media Queries */
+
+@media (max-width: 767px) {
+    .body {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-section, .right-section {
+      width: 100%;
+    }
+  
+    .left-section img {
+      width: 90%;
+    }
+  
+    .left-section h2 {
+      font-size: 30px;
+      line-height: 1.5;
+      letter-spacing: 3px;
+    }
+  
+    .right-section .countiner {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .right-section header img {
+      right: 5%;
+      top: 10px;
+      width: 40px;
+    }
+  
+    .right-section form input {
+      width: 90%;
+    }
+  
+    .right-section form button {
+      width: 50%;
+    }
+  
+    
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .left-section h2 {
+      font-size: 40px;
+    }
+  
+    .left-section img {
+      width: 300px;
+    }
+  
+    .right-section .countiner {
+      width: 80%;
+      margin: 30px auto;
+    }
+  
+    .right-section header img {
+      right: 10%;
+      top: 5%;
+      width: 45px;
+    }
+  
+    .right-section form input {
+      width: 80%;
+    }
+  
+    .right-section form button {
+      width: 30%; 
+    }
+  
+    .right-section .icons-task button img {
+     /* width: 30px;*/
+    }
+  }
