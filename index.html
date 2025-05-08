@@ -1,84 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
 
     <title>ToDo List</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="body">
+      <!--start left section-->
+      <div class="left-section">
+        <h2>
+          Welcome to <br />
+          the Todo List website
+        </h2>
+        <img src="./imgs/memes.gif" />
+      </div>
+      <!--end left section-->
 
-    <!--start left section-->
-    <div class="left-section">
-     <h2>Welcome to <br> the Todo List website</h2>
-     <img src="./imgs/memes.gif">
-    </div>
-    <!--end left section-->
-
-    <!--strat right section-->
-    <div class="right-section">
-      <div class="countiner">
-
-     <header>
-        <h2>ToDo List</h2>
-        <img  src="./imgs/todolisticon.png">
-     </header>
-        <!-- To Add Task-->
-    <form>
+      <!--strat right section-->
+      <div class="right-section">
+        <div class="countiner">
+          <header>
+            <h2>ToDo List</h2>
+            <img src="./imgs/todolisticon.png" />
+          </header>
+          <!-- To Add Task-->
+          <form id="taskForm">
             <label>Your Task</label>
-            <br>
-            <input type="text" placeholder="Add New Task">
-        <br>
-        <br>
+            <br />
+            <input type="text" id="title" placeholder="Add New Task" />
+            <br />
+            <br />
             <label>Deadline Task</label>
-            <br>
-            <input type="datetime-local">
-        <br>
-        <br>
-            <button onclick=" ">Add</button>
-    </form>
+            <br />
+            <input type="datetime-local" id="deadline" />
+            <br />
+            <br />
+            <button type="button" id="submit">Add</button>
+          </form>
 
-        <hr>
-        <p>TO Do</p>
+          <hr />
+          <p>TO Do</p>
 
-        <!--All Tasks-->
-        <div class="all-tasks">
-
-       <div class="task">
-        <div class="name-task">
-           <h6>Front Task</h6><!--taskname--> 
-            <br>
-            <p>2 day left</p>
+          <!--All Tasks-->
+          <div class="all-tasks">
+           
+          </div>
+          
         </div>
-       
-         <div class="icons-task">
-         <button onclick=" "><img src="./imgs/pencil-solid.svg" width="50px"></button>
-        <button onclick=" "><img src="./imgs/trash-solid.svg" width="50px"></button>
-        <button onclick=" "><img src="./imgs/check-solid.svg" width="50px"></button>
-        </div>
-       </div>
-
-
-
-
-
-   
-  
-        </div>
-
-
-
-
-     </div>
+      </div>
+      <!--end right section-->
     </div>
-    <!--end right section-->
 
-</div>
-</body>
+    <!-- sweet alert js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+     <!-- main js -->
+     <script src="main.js"></script>
+  </body>
 </html>

@@ -38,7 +38,7 @@ text-align: center;
 
 }
 .right-section .countiner{
-   /* width: 60%;*/
+    width: 60%;
     border: solid 1px;
     margin: 38px 145px;
     border: 3px solid #77b77f;
@@ -135,31 +135,26 @@ input[type="datetime-local"] {
 }
 
 .right-section .icons-task button img {
-    width: 10px;
+    width: 17px;
 }
 
 .right-section .name-task h6{
-    margin-top: 0;
-    margin-bottom: -15px;
+  margin-bottom: -15px;
+    font-size: 14px;
+    margin-top: 10px;
 }
-.right-section .name-task p 
+.right-section .name-task p,
+.right-section .icons-task p 
 {
     color: #9508085e;
-    font-size: 10px;
+    font-size: 12px;
     padding: 0;
     margin-top: 0px;
-    margin-top: 0;
 }
 
 
 
-
-
-
-
-
-
-/* ✅ Media Queries */
+/*  Media Queries */
 
 @media (max-width: 767px) {
     .body {
