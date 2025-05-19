@@ -27,6 +27,7 @@ body{
 
 .left-section img {
     width :450px;
+
 }
 
 
@@ -57,23 +58,16 @@ text-align: center;
     justify-content: center;
    
 }
-.right-section header img{
-    height: 50px;
-    padding-top: 20px;
 
-}
 .right-section header h2{
     padding-top: 10px;
 }
 
-<<<<<<< HEAD
-=======
 .right-section header img{
     padding-top: 20px;
     height: 50px;
 
 }
->>>>>>> omniya
 
 .right-section input::placeholder{
     color: #77b77f;
@@ -145,16 +139,6 @@ input[type="datetime-local"] {
 .right-section .icons-task button img {
     width: 17px;
 }
-<<<<<<< HEAD
-
-.right-section .name-task h6{
-  margin-bottom: -15px;
-    font-size: 14px;
-    margin-top: 10px;
-}
-.right-section .name-task p,
-.right-section .icons-task p 
-=======
 .right-section .name-task h6{
    
     margin-bottom: -15px;
@@ -164,95 +148,10 @@ input[type="datetime-local"] {
 }
 .right-section .name-task p,
 .right-section .icons-task p
->>>>>>> omniya
 {
     color: #9508085e;
     font-size: 12px;
     padding: 0;
     margin-top: 0px;
-<<<<<<< HEAD
-}
-
-
-
-/*  Media Queries */
-
-@media (max-width: 767px) {
-    .body {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .left-section, .right-section {
-      width: 100%;
-    }
-  
-    .left-section img {
-      width: 90%;
-    }
-  
-    .left-section h2 {
-      font-size: 30px;
-      line-height: 1.5;
-      letter-spacing: 3px;
-    }
-  
-    .right-section .countiner {
-      width: 90%;
-      margin: 20px auto;
-    }
-  
-    .right-section header img {
-      right: 5%;
-      top: 10px;
-      width: 40px;
-    }
-  
-    .right-section form input {
-      width: 90%;
-    }
-  
-    .right-section form button {
-      width: 50%;
-    }
-  
-    
-   
-  }
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .left-section h2 {
-      font-size: 40px;
-    }
-  
-    .left-section img {
-      width: 300px;
-    }
-  
-    .right-section .countiner {
-      width: 80%;
-      margin: 30px auto;
-    }
-  
-    .right-section header img {
-      right: 10%;
-      top: 5%;
-      width: 45px;
-    }
-  
-    .right-section form input {
-      width: 80%;
-    }
-  
-    .right-section form button {
-      width: 30%; 
-    }
-  
-    .right-section .icons-task button img {
-     /* width: 30px;*/
-    }
-  }
-=======
     
 }
->>>>>>> omniya
