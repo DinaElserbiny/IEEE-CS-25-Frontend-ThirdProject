@@ -66,6 +66,14 @@ text-align: center;
     padding-top: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.right-section header img{
+    padding-top: 20px;
+    height: 50px;
+
+}
+>>>>>>> omniya
 
 .right-section input::placeholder{
     color: #77b77f;
@@ -137,6 +145,7 @@ input[type="datetime-local"] {
 .right-section .icons-task button img {
     width: 17px;
 }
+<<<<<<< HEAD
 
 .right-section .name-task h6{
   margin-bottom: -15px;
@@ -145,11 +154,23 @@ input[type="datetime-local"] {
 }
 .right-section .name-task p,
 .right-section .icons-task p 
+=======
+.right-section .name-task h6{
+   
+    margin-bottom: -15px;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+.right-section .name-task p,
+.right-section .icons-task p
+>>>>>>> omniya
 {
     color: #9508085e;
     font-size: 12px;
     padding: 0;
     margin-top: 0px;
+<<<<<<< HEAD
 }
 
 
@@ -231,3 +252,7 @@ input[type="datetime-local"] {
      /* width: 30px;*/
     }
   }
+=======
+    
+}
+>>>>>>> omniya
